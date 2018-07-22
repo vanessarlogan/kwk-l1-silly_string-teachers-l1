@@ -42,7 +42,7 @@ describe "Silly Strings" do
   it 'Properly capitalizes the first letter in proper_sentence' do
     proper_sentence = get_variable_from_file('./silly_string.rb', 'proper_sentence')
 
-    expect(proper_sentence).to eq("i really like programming.".capitalize), "Did you capitalize proper_sentence?"
+    expect(proper_sentence).to eq("I really like programming.".capitalize), "Did you capitalize proper_sentence?"
   end
 
   it 'substitutes all "A" for "O" and "a" for "o" in sentence' do
